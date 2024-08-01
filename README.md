@@ -77,3 +77,35 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+Project Overview
+This project is a React Native application designed for tour packages, payments, bookings, registration, and sign-up functionalities. The application connects to a backend that was developed as part of a collaborative effort. The backend handles all the data management and API endpoints required by the app.
+
+Backend Details
+The backend was a single, unified service developed by me and a team member.
+It manages all operations related to tour packages, payments, bookings, user registration, and authentication.
+Important: The backend used in this project is not included in this repository, as it was designed for a one-time use during our project development.
+Using Your Own Backend
+Since the original backend is not included:
+
+Set Up Your Backend:
+
+You will need to create your own backend that provides the necessary API endpoints.
+Your backend should be capable of handling requests for tour packages, payments, bookings, user registration, and authentication.
+The original backend used MongoDB, so using MongoDB is recommended for managing the data.
+
+Configure the API Endpoints:
+Ensure that your API endpoints match the ones expected by the app.
+Update the API URLs in the app to point to your local or deployed backend.
+
+
+Limitations
+This app was designed to work with a specific backend configuration. Without the appropriate backend, some features will not function.
+This project does not include the original backend code, so it's necessary to develop or use your own backend to fully utilize the app.
+
+
+Additional Notes
+This project was developed as part of a collaborative Final Year Project (FYP) and was intended for demonstration purposes.
+The backend is not included, and the provided app is mainly for showcasing the frontend work done using React Native.
